@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #0D7EA6;
+}
+#navbar-logo {
+    width: 100px;
+    padding: 5px;
+}
+#navbar-header {
+    font-size: 20px;
+    color: white
+}
+.card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+    width: 600px;
+    height: fit-content;
+    background: rgba(0,0,0,0.15);
+    border-radius: 15px;
+}
+.card-image {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 20px;
+}
+.card-items {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    height: 200px;
+}
+.location-items {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px 0;
+    gap: 10px;
+}
+.location-items i {
+    margin: 0;
+    color: #0D7EA6;
+}
+.location-items h6 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+.location-items a {
+    margin: 0;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgba(80,80,80,0.8);
+    background: rgba(80,80,80,0.2);
+}
+.location-items a:hover {
+    transition: .5s;
+    color: rgba(80,80,80,1);
+    background-color: rgba(80,80,80,0.4);
+}
+.card-title {
+    margin: 0;
+    font-size: 26px;
+}
+.card-date {
+    font-size: 14px;
+}
+.card-desc {
+    margin: 0;
+    font-size: 12px;
+}
